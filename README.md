@@ -5,7 +5,7 @@
 ## Features
 
 - Automatically check if libraries are already installed in the Colab runtime
-- Mount Google Drive if necessary and check for libraries stores in a specific folder
+- Mount Google Drive if necessary and check for libraries stored in a specific folder
 - If folder does not exist, create it on Google Drive
 - If the library is not available, install it into the folder
 
