@@ -11,5 +11,5 @@ setup(
     #packages = find_packages(),
     #install_requires = [
     #    'sys', 'subprocess', 'os', 'importlib', 'google.colab',
-    ],
+    #],
 )
