@@ -8,7 +8,7 @@
 - Mount Google Drive if necessary and check for libraries stores in a specific folder
 - If the library is not available, install it into Google Drive
 
-## Instalation
+## Installation
 
 Clone the repository and install the package using 'pip', placing these 2 lines in a Colab cell:
 
