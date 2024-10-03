@@ -12,10 +12,8 @@
 
 Clone the repository and install the package using 'pip', placing these 2 lines in a Colab cell:
 
-    ```bash
     !git clone https://github.com/agj60/colab_lib_manager.git
     !pip install -e colab_lib_manager/
-    ```
 
 ## Usage
 
