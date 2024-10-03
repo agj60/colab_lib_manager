@@ -9,7 +9,7 @@ setup(
     #author = 'agj60',
     #url = 'https://github.com/agj60/colab_lib_manager',
     #packages = find_packages(),
-    install_requires = [
-        'sys', 'subprocess', 'os', 'importlib', 'google.colab',
+    #install_requires = [
+    #    'sys', 'subprocess', 'os', 'importlib', 'google.colab',
     ],
 )
