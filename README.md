@@ -6,20 +6,20 @@
 
 - Automatically check if libraries are already installed in the Colab runtime
 - Mount Google Drive if necessary and check for libraries stores in a specific folder
+- If folder does 
 - If the library is not available, install it into Google Drive
 
 ## Installation
 
-Clone the repository and install the package using 'pip', placing these 2 lines in a Colab cell:
+Install the package using 'pip' directly from GitHub:
 
-    !git clone https://github.com/agj60/colab_lib_manager.git
-    !pip install -e colab_lib_manager/
+    !pip install git+https://github.com/agj60/colab_lib_manager.git
 
 ## Usage
 
 ```python
 from colab_lib_manager import install_libraries
-install_libraries(['library_1', 'library_2'])
+install_libraries(['library_1', 'library_2'], where = 'colab_libs') # colab_libs is the default directory on Google Drive; can be any
 import library_1, library_2
 ```
 
